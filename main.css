@@ -1,9 +1,12 @@
 /* Body */  
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align: center; 
-margin: 0;
-padding: 0;
 }
 
 
@@ -17,7 +20,7 @@ nav ul {
   text-align: right;
   position: fixed;
   width: 100%;
-  background-color: #e0ebe8;
+  background-color: #b4b9ff;
 }
 
 nav ul li {
@@ -28,6 +31,11 @@ nav ul li {
   margin-top: 25px;
 }
 
+.welcome-section {
+  padding-top: 45%;
+  min-height: 55%;
+  color: #41a1f0;
+}
 
 
 /* projects */
