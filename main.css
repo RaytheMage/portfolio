@@ -14,6 +14,7 @@ text-align: center;
 nav {
   margin: 0;
   padding: 0;
+  top: 0;
 }
 
 nav ul {
@@ -31,11 +32,34 @@ nav ul li {
   margin-top: 25px;
 }
 
-.welcome-section {
+#welcome-section {
+  display: block;
+  height: 100vh;
   padding-top: 45%;
   min-height: 55%;
   color: #41a1f0;
 }
+
+
+/* ...{
+  text-align:center;
+  margin-bottom:40em;
+  height:100%;
+  min-height:100px;
+  margin-top:30em;
+  }
+
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh; */
+
+
+
+
+
+
+
 
 
 /* projects */
