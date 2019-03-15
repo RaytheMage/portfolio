@@ -1,3 +1,12 @@
+/* {
+white: #EFE7E5;
+deep dark red: #3D0103;
+grey: #B0ACAB;
+red: #9C1F20;
+Black: #1C191B;
+} */
+
+
 /* Body */  
 * {
   margin: 0;
@@ -6,7 +15,9 @@
 
 body {
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-text-align: center; 
+text-align: center;
+color: #1C191B; 
+background-color: #EFE7E5;
 }
 
 
@@ -14,52 +25,38 @@ text-align: center;
 nav {
   margin: 0;
   padding: 0;
-  top: 0;
 }
 
 nav ul {
   text-align: right;
   position: fixed;
   width: 100%;
-  background-color: #b4b9ff;
+  background-color: #3D0103;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 55px;
-  padding: 0px;
-  margin-bottom: 15px;
-  margin-top: 25px;
+  padding: 30px;
+  margin-right: 20px;
+  color: #EFE7E5;
+}
+
+nav ul li a {
+  color: #EFE7E5;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #B0ACAB;
 }
 
 #welcome-section {
   display: block;
-  height: 100vh;
-  padding-top: 45%;
-  min-height: 55%;
-  color: #41a1f0;
+  padding-top: 45vh;
+  min-height: 55vh;
+  color: #EFE7E5;
+  background-color: #3D0103;
 }
-
-
-/* ...{
-  text-align:center;
-  margin-bottom:40em;
-  height:100%;
-  min-height:100px;
-  margin-top:30em;
-  }
-
-  padding-top: 0px;
-  margin-top: 0px;
-  display: block;
-  height: 100vh; */
-
-
-
-
-
-
-
 
 
 /* projects */
