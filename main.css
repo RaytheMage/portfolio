@@ -61,6 +61,11 @@ nav ul li a:hover {
 
 /* projects */
 
+.work-header {
+  Margin: 100px;
+}
+
+
 .project-pic {
     max-width: 300px;
 }
