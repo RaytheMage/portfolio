@@ -1,87 +1,189 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Rachel's Portfolio Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-        <nav>    
-            <ul id='navbar'>
-              <li><a href="#welcome-section">About</a></li>
-              <li><a href="#projects">Work</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <nav>
+        <ul id="navbar">
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-        <div id="welcome-section" class="intro">
-            <h1>Welcome! I'm Rachel...</h1>
-            <p>a web designer and developer.</p>
-        </div>
+      <div id="welcome-section" class="intro">
+        <h1>Welcome! I'm Rachel...</h1>
+        <p>a web designer and developer.</p>
+      </div>
     </header>
-    <main>
-        <div id="projects" class="work">
-            <h2 class="work-header">These are some of my projects..</h2>
-            <figure>
-                <a href="https://invis.io/57PEJRNQCAS" target="_blank" class="project-tile">
-                <img class="project-pic" src="rachel_healutah.PNG" alt="Heal Utah Project"> </a>
-            <figcaption class="project-title">HEAL Utah</figcaption>
-            </figure>
-            
-            <figure>
-                <a href="https://projects.invisionapp.com/boards/873DCA4KJ4FGU/" target="_blank" class="project-tile">
-                <img class="project-pic" src="DigitalCinema_MoodBoard.PNG" alt="Mood Board for Digital Cinema"> </a>
-            <figcaption class="project-title">Digital Cinema Mood Board</figcaption>
-            </figure>
-
-            <figure>
-                <a href="https://projects.invisionapp.com/boards/673GH6I2JK8YV/" target="_blank" class="project-tile">
-                <img class="project-pic" src="DigitalCinemaUtah_Presentation.PNG" alt="Presentation for Digital Cinema Utah"> </a>
-            <figcaption class="project-title">Digital Cinema Utah Presentation</figcaption>
-            </figure>
-
-            <figure>
-                <a href="https://invis.io/5VR1JD7FH6S#/269367286_DCUmHome" target="_blank" class="project-tile">
-                <img class="project-pic" src="DigitalCinema_MobileDesign.PNG" alt="Digital Cinema Utah Mobile Design"> </a>
-            <figcaption class="project-title">Digital Cinema Utah Mobile Design</figcaption>
-            </figure>
-
-            <figure>
-                <a href="https://invis.io/T8R1JF129E7#/269367786_DCUDesktop" target="_blank" class="project-tile">
-                <img class="project-pic" src="DigitalCinema_DesktopDesign.PNG" alt="Digital Cinema Utah Desktop Design"> </a>
-            <figcaption class="project-title">Digital Cinema Utah Desktop Design</figcaption>
-            </figure>
-
-            <figure>
-                <a src="rachel_portfoliopractice1.PNG" target="_blank" class="project-tile">
-                <img class="project-pic" src="rachel_portfoliopractice1.PNG" alt="project"> </a>
-            <figcaption class="project-title">HEAL Utah</figcaption>
-            </figure>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DMd7TJjcInM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <figcaption class="project-title">Learning About Design Principles - Proximity</figcaption>
-        </div>
-
-        <div id="contact" class="contact">
-            <div class="header">
-              <h1>Let's work together...</h1>
-              <p>You can find out more about me through these links.</p>
-            </div>
-            <a href="https://facebook.com/freecodecamp" target="_blank" class="contact-details">Facebook</a>
-            <a id='profile-link' href="https://github.com/freecodecamp" target="_blank" class="contact-details">GitHub</a>
-            <a href="https://twitter.com/freecodecamp" target="_blank" class="contact-details">Twitter</a>
-            <a href="mailto:example@example.com" class="contact-details">Send a mail</a>
-            <a href="tel:555-555-5555" class="contact-details">Call me</a>
-          </div>
-    </main>
     
-    <footer>
+    <main>
+      <div id="projects">
+        <h2 class="work-header">These are some of my projects...</h2>
+
+        <div class="twocolumns">
+        <div class="Recent">
+            <div class="twoimages">
+          <figure>
+            <a
+              href="https://invis.io/57PEJRNQCAS"
+              target="_blank"
+              class="project-tile"
+            >
+              <img
+                class="project-pic"
+                src="rachel_healutah.PNG"
+                alt="Heal Utah Project"
+              />
+            </a>
+            <figcaption class="project-title">HEAL Utah</figcaption>
+          </figure>
+
+          <figure>
+            <a
+              src="rachel_portfoliopractice1.PNG"
+              target="_blank"
+              class="project-tile"
+            >
+              <img
+                class="project-pic"
+                src="rachel_portfoliopractice1.PNG"
+                alt="project"
+              />
+            </a>
+            <figcaption class="project-title">Portfolio Practice</figcaption>
+          </figure>
+            </div>
+            <div class="video"></div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/DMd7TJjcInM"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <figcaption class="project-title">
+            Learning About Design Principles - Proximity
+          </figcaption>
+        </div>
+        </div>
+    
+
+      <div class="digitalcinema">
+        <div class="overview">
+        <figure>
+          <a
+            href="https://projects.invisionapp.com/boards/673GH6I2JK8YV/"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-pic"
+              src="DigitalCinemaUtah_Presentation.PNG"
+              alt="Presentation for Digital Cinema Utah"
+            />
+          </a>
+          <figcaption class="project-title">
+            Digital Cinema Utah Presentation
+          </figcaption>
+        </figure>
         
-    </footer>
-</body>
+        <figure>
+          <a
+            href="https://projects.invisionapp.com/boards/873DCA4KJ4FGU/"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-pic"
+              src="DigitalCinema_MoodBoard.PNG"
+              alt="Mood Board for Digital Cinema"
+            />
+          </a>
+          <figcaption class="project-title">
+            Digital Cinema Mood Board
+          </figcaption>
+        </figure>
+        </div>
+        <div class="digitalmediaprototype">
+        <figure>
+          <a
+            href="https://invis.io/5VR1JD7FH6S#/269367286_DCUmHome"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-pic"
+              src="DigitalCinema_MobileDesign.PNG"
+              alt="Digital Cinema Utah Mobile Design"
+            />
+          </a>
+          <figcaption class="project-title">
+            Digital Cinema Utah Mobile Design
+          </figcaption>
+        </figure>
+
+        <figure>
+          <a
+            href="https://invis.io/T8R1JF129E7#/269367786_DCUDesktop"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-pic"
+              src="DigitalCinema_DesktopDesign.PNG"
+              alt="Digital Cinema Utah Desktop Design"
+            />
+          </a>
+          <figcaption class="project-title">
+            Digital Cinema Utah Desktop Design
+          </figcaption>
+        </figure>
+        </div>
+      </div>
+    </div>
+</div>
+
+      <div id="contact" class="contact">
+        <div class="header">
+          <h1>Let's work together...</h1>
+          <p>You can find out more about me through these links.</p>
+        </div>
+        <a
+          href="https://facebook.com/freecodecamp"
+          target="_blank"
+          class="contact-details"
+          >Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/freecodecamp"
+          target="_blank"
+          class="contact-details"
+          >GitHub</a
+        >
+        <a
+          href="https://twitter.com/freecodecamp"
+          target="_blank"
+          class="contact-details"
+          >Twitter</a
+        >
+        <a href="mailto:example@example.com" class="contact-details"
+          >Send a mail</a
+        >
+        <a href="tel:555-555-5555" class="contact-details">Call me</a>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
