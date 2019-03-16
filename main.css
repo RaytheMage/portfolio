@@ -61,19 +61,23 @@ nav ul li a:hover {
 .twocolumns {
   display: flex;
   flex-direction: row;
-  align-content: space-around;
-  align-items: baseline;
-}
+  justify-content: center;
+  }
 
 .recent {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .twoimages {
   display: flex;
   flex-direction: row;
 }
+
+/* .bottomtwoimages {
+  display: flex;
+  flex-direction: column;
+} */
 
 .digitalcinema {
   display: flex;
@@ -93,12 +97,31 @@ nav ul li a:hover {
 .work-header {
   margin-top: 100px;
   margin-bottom: 75px;
-  color: #9C1F20;
+  color: #9c1f20;
 }
 
 .project-pic {
   max-width: 300px;
+  padding: 25px;
+  padding-bottom: 0px;
 }
+
+iframe {
+  padding: 25px;
+  padding-bottom: 0px;
+}
+
+.project-title {
+  padding-bottom: 25px;
+}
+
+/* contact */
+.contact {
+  margin-top: 100px;
+  margin-bottom: 75px;
+  color: #9c1f20;
+}
+
 
 /* media query */
 
