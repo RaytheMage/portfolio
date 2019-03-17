@@ -60,6 +60,7 @@ nav ul li a:hover {
 /* projects */
 .twocolumns {
   display: flex;
+  flex-flow: row wrap;
   flex-direction: row;
   justify-content: center;
   }
@@ -116,23 +117,66 @@ iframe {
 }
 
 /* contact */
-.contact {
+.contactsection {
+  background-color: #1C191B;
+  display: block;
+  padding-top: 100px;
   margin-top: 100px;
-  margin-bottom: 75px;
-  color: #9c1f20;
+  /* padding-bottom: 50px; */
+}
+
+.contactheader {
+  margin-bottom: 75px; 
+  color: #EFE7E5;
+}
+
+.contact-details {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 10px solid #EFE7E5;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #EFE7E5;
+  color: #9C1F20;
+  text-decoration: none;
 }
 
 
+
+/* footer */
+footer {
+  background-color: #1C191B;
+  Color: #EFE7E5;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
 /* media query */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   nav ul {
     text-align: center;
   }
   nav ul li {
-    margin: 20px;
+    margin: 30px;
   }
-  .project {
-    margin: 40px 0;
+  .twocolumns {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 375) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 30px;
+  }
+  .twocolumns {
+    justify-content: space-around;
   }
 }
