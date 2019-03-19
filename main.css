@@ -72,7 +72,9 @@ nav ul li a:hover {
 
 .twoimages {
   display: flex;
+  flex-flow: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 
 /* .bottomtwoimages {
@@ -87,12 +89,16 @@ nav ul li a:hover {
 
 .overview {
   display: flex;
+  flex-flow: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 
 .digitalmediaprototype {
   display: flex;
+  flex-flow: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 
 .work-header {
@@ -162,19 +168,19 @@ footer {
     text-align: center;
   }
   nav ul li {
-    margin: 30px;
+    margin-right: 20px;
   }
   .twocolumns {
     justify-content: space-around;
   }
 }
 
-@media only screen and (max-width: 375) {
+@media only screen and (max-width: 367) {
   nav ul {
     text-align: center;
   }
   nav ul li {
-    margin: 30px;
+    margin-right: 0px;
   }
   .twocolumns {
     justify-content: space-around;
