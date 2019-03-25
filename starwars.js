@@ -1,5 +1,7 @@
 import { films } from './films.js'
 
+films.sort((a,b) => (a.episode_id > b.episode_id) ? 1 : -1)
+
 const movie = document.querySelector('.movie')
 
 films.forEach((film) => {
