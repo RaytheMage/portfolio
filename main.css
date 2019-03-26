@@ -122,6 +122,13 @@ iframe {
   padding-bottom: 25px;
 }
 
+/* starwars js */
+
+.movie div {
+  border: 2px solid green;
+  width: 300px
+}
+
 /* contact */
 .contactsection {
   background-color: #1C191B;

@@ -1,19 +1,22 @@
 import { films } from './films.js'
 
-films.sort((a,b) => (a.episode_id > b.episode_id) ? 1 : -1)
+let filmSort = films.sort((a,b) => (a.episode_id > b.episode_id) ? 1 : -1)
 
 const movie = document.querySelector('.movie')
 
-films.forEach((film) => {
+films.forEach((filmSort) => {
+
+let tile = document.createElement('div')
+
 let titleElement = document.createElement("h1")
 let crawlElement = document.createElement("p")
 
-titleElement.textContent = films.title
-crawlElement.textContent = films.opening_crawl
+titleElement.textContent = filmSort.title
+crawlElement.textContent = filmSort.opening_crawl
 
-movie.appendChild(titleElement)
-movie.appendChild(crawlElement)
-
+tile.appendChild(titleElement)
+tile.appendChild(crawlElement)
+movie.appendChild(tile)
 })
 
 // let titleElement = document.querySelector('.title')
